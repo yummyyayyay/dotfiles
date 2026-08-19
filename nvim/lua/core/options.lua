@@ -11,3 +11,5 @@ vim.opt.shiftwidth = 4 -- size of an automatic indent is also 4 now
 vim.opt.expandtab = true -- converts tabs into spaces 
 vim.opt.smartindent = true -- need to look up , turns on lang aware indent 
 
+-- making sure that the sign column is always on , else it keeps shifting 
+vim.opt.signcolumn = "yes"
